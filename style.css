@@ -1,91 +1,131 @@
-<!DOCTYPE html>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<html lang="en">
-  <head>
-    <title>THE GOAT</title>
-    <h1 class="text">UZI (from Murder Drones)</h1>
-  </head>
-  <body class="bg">
-    <p class="texts">
-      UZI is great at a few things, namely being cringe and saving people.
-    </p>
-    <br />
-    <p class="textz">
-      Uzi's dad is a doorman he builds doors to keep out the Murder Drones one
-      day Uzi decides she wants to just go kill the Murder Drones so she makes a
-      gun and opens the door that was keeping everyone safe. This causes the
-      Murder Drones access to the inside and a few people died however and the
-      end of the day they weren't friends but they weren't enemies either.
-    </p>
-    <table class="UZI">
-      <tr>
-        <td class="border">ACHIEVEMENTS</td>
-        <td class="border">
-          In the beginning she saves her dad and classmates from the Murder
-          Drones
-        </td>
-        <td class="border">
-          At the end she (kills) cyn and saves copper nine from destruction
-        </td>
-      </tr>
-      <tr>
-        <td class="border">GOALS</td>
-        <td class="border">
-          In the beginning she just wants to go outside and explore however when
-          she meets and unexpected friend her goal changes in order to be with
-          them
-        </td>
-        <td class="border">
-          She just wants to live in peace with her new boyfriend
-        </td>
-      </tr>
-      <tr>
-        <td class="border">ACCOMPLISHMENTS</td>
-        <td class="border">
-          V and N got hacked so Uzi hacks into their memory saving them both
-          from whatever cyn was trying to do.
-        </td>
-        <td class="border">
-          In the final battle Uzi had to gain full control over the absolute
-          solver which previously had taken possession of her.
-        </td>
-      </tr>
-      <tr>
-        <td class="border">QUOTES</td>
-        <td class="border">"Bite Me!!"</td>
-        <td class="border">"I'm a damaged OC!!!"</td>
-      </tr>
-    </table>
-    <div class="jar">
-      <img class="Nuzi" src="uzi.jpg" />
-      <img class="Buzi" src="Buzi.jpeg" />
-    </div>
-    <div class="jar2">
-      <br /><img class="Cuzi" src="Cuzi.jpeg" />
-      <img class="Nuzis" src="Nuzis.jpeg" />
-    </div>
-    <div class="container">
-      <iframe
-        class="vid"
-        width="500"
-        height="281"
-        src="https://www.youtube.com/embed/caR9ouipm8o?si=WSULiMZw1-RTinma"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-      <div>
-        <a class="link" href="https://murder-drones.fandom.com/wiki/Uzi_Doorman"
-          >Uzi_doorman murder-drones.fandom.com</a
-        ><br />
-        <br />
-        <a class="link" href="https://www.youtube.com/watch?v=6Ed_IQ1DTag"
-          >For eternity Uzi Song
-        </a>
-      </div>
-    </div>
-  </body>
-</html>
+.vid{
+    width: 500px;
+    height: 281px;
+    
 
+}
+.Nuzi{
+height: 281.25px;
+width: 500px;
+
+} 
+.Buzi{
+    height:281px;
+    width:500px;
+    margin-left: 30px;
+
+}
+.Cuzi{
+    height:400px;
+    width:500px;
+
+}
+.Nuzis{
+    height:400px;
+    width:400px;
+    margin-right: 20px;
+    margin-left: 30px
+}
+.bg{
+    background-color: purple;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    color: rgb(255, 255, 0);
+    text-decoration: underline rgb(175, 11, 175);
+    text-decoration-style: double;
+    text-decoration-skip-ink: none;
+}
+.textz{
+    color: rgb(255, 255, 0);
+    text-decoration: underline purple;
+    text-decoration-style: double;
+    text-decoration-skip-ink: none;
+    white-space-collapse:30px;
+    font-size: larger; 
+    background-color: black;
+
+}
+.UZI{
+    color: rgb(255, 255, 0);
+    text-decoration: underline purple;
+    text-decoration-style: double;
+    text-decoration-skip-ink: none; 
+    position: center; 
+    font-size: 15pt;
+    background-color: black;
+    border: 6px solid purple;
+    border-width: 3px purple;
+    border-collapse: collapse;
+    
+    
+    
+  
+} 
+.texts{
+    font-size: larger;
+    background-color: black;
+    position: absolute;
+    margin-top: 8pt;
+    color: rgb(255, 255, 0);
+    text-decoration: underline purple;
+    text-decoration-style: double;
+    text-decoration-skip-ink: none; 
+    border-bottom: 1px solid black;
+   
+    
+}
+.border{
+    border-bottom: 6px solid purple;
+    border-right: 6px solid purple;
+    height: 50pt;
+    padding: 0%;
+    margin: 0%
+    padding 0px 5px 0px 5px;
+    margin: 0;
+    
+
+    
+
+    
+ 
+}
+.link{
+    color:white;
+    font-size: 24px;
+    background-color: purple;
+    margin-left: 75px;
+    margin-bottom: 5px;
+    
+    
+}
+.link:hover{
+    color: yellow;
+    font-size: 24px;
+    background-color: purple;
+    
+}
+
+.container {
+    display: block;
+    align-items: center;
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+.jar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:20px;
+
+}
+.jar2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding:20px;
+
+}
